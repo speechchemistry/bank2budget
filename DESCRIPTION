@@ -1,0 +1,15 @@
+Package: bank2budget
+Title: Combine Bank Statements and Track Budgets
+Version: 0.0.0.9000
+Authors@R: 
+    person("Tim", "Kempton", , "tim_kempton@sil.org", role = c("aut", "cre"))
+Description: Tools to import bank statements from multiple sources,
+    standardize them into a unified CSV format, and support budget
+    monitoring workflows for tracking income and expenses.
+License: MIT
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Suggests:
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3

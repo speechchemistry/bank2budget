@@ -1,0 +1,3 @@
+Transaction_date,Transaction_type,Sort_code,Account_number,Transaction_description,Category,Comments,Debit_in_original_currency,Credit_in_original_currency,Exchange_rate_for_one_GBP,Debit_amount_in_GBP,Credit_amount_in_GBP,Balance_check_digits
+07/01/2024,DEB,Lloyds,12345678,Coffee Shop,,,100,0,2,50,0,900
+08/01/2024,CRD,Lloyds,12345678,Salary,,,0,500,2,0,250,1400

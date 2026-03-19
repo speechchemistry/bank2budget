@@ -1,0 +1,3 @@
+Day,Month,Year,Account,Transaction_type,Transaction_description,Category,Debit_positive_amount_in_GBP,Comments,Original_statement_row_number,Debit_positive_amount_in_original_currency,Exchange_rate_for_one_GBP
+7,1,2024,Lloyds,DEB,Coffee Shop,,100,,1,100,1
+8,1,2024,Lloyds,CRD,Salary,,-500,,2,-500,1
