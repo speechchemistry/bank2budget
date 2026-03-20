@@ -4,25 +4,11 @@ Utilities for converting bank statement exports into a consistent CSV format for
 
 ## Scripts
 
-- `scripts/lloyds_csv_to_standard_csv.R`: Converts raw Lloyds CSV exports to a standard intermediate CSV format.
-- `scripts/convert_single_bank_statement_to_new_format.R`: Converts standard intermediate CSV into the new normalized format used for analysis. (This will be eventually superseded)
-- `scripts/firstbank_qif_to_standard_csv.py`: Converts FirstBank QIF exports directly into the normalized format.
-
-## Tests
-
-This repo uses `testthat` with end-to-end fixture-based tests under `tests/`.
-
-Run all tests:
-
-```r
-Rscript -e "testthat::test_dir('tests/testthat', reporter='summary')"
-```
-
-Run one test file:
-
-```r
-Rscript -e "testthat::test_file('tests/testthat/test-firstbank-qif_end-to-end.R', reporter='summary')"
-```
+- `scripts/lloyds_csv_to_standard_csv.R`: Converts raw Lloyds CSV exports to the old intermediate CSV format.
+- `scripts/convert_single_bank_statement_to_new_format.R`: Converts the old CSV format to the standard CSV format. (This script won't be needed once the lloyds script just uses the standard CSV format)
+- `scripts/firstbank_qif_to_standard_csv.py`: Converts FirstBank QIF exports directly into the standard CSV format.
+- `scripts/wuki_2025xlsx_to_standard_csv.R`: Converts WUKI 2025 monthly Excel statement into the standard CSV format.
+- `scripts/opayxlsx_to_standard_csv.R`: Converts OPay Excel statement XLSX into the standard CSV format.
 
 ## Acknowledgements
 
